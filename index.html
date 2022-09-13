@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="shortcut icon" href="assets/img/png/fav-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/style/plugin/bootstrap.css">
+    <link rel="stylesheet" href="assets/style/css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+                <div class="row position-relative">
+                   <nav class="nav w-100 position-absolute d-flex justify-content-between top-0 start-0">
+                    <div class="col-lg-3 col-sm-4 col-7 position-relative">
+                        <a href="./index.html">
+                            <img src="assets/img/png/logo.png" alt="logo.png" class="logo w-100 position-absolute">
+                        </a>
+                    </div>
+                    <div class="col-lg-7 col-md-6">
+                        <ul class="justify-content-between align-items-center mt-1 d-none d-lg-flex">
+                            <li class="nav-list"><a href="#" class="nav-list__link">Посмотреть истории</a></li>
+                            <li class="nav-list"><a href="#" class="nav-list__link">Популярные пользователи</a></li>
+                            <li class="nav-list"><a href="#" class="nav-list__link">Блог</a></li>
+                            <li class="lang">
+                                <span class="lang-active"> Ru</span>
+                                  <ul class="lang-menu">
+                                    <li><a class="lang-item" href="#">Ru</a></li>
+                                    <li><a class="lang-item" href="#">En</a></li>
+                                  </ul>
+                            </li>
+                        </ul>
+                        <div class="menu-burger justify-content-end d-flex d-lg-none mt-3 me-2">
+                            <div class="menu-burger-item flex justify-between flex-col">
+                                <div class="menu-burger-list" id="burger_list1"></div>
+                                <div class="menu-burger-list" id="burger_list2"></div>
+                                <div class="menu-burger-list" id="burger_list3"></div>
+                            </div>
+                        </div>
+                    </div>
+                   </nav>
+                </div>
+        </div>
+        <div class="header-item h-100 d-flex justify-content-center align-items-center g-0 px-2 px-sm-0">
+            <div class="text-center">
+                <p class="header__title">Смотреть Инстаграм <br> анонимно</p>
+                <div class="header-search">
+                    <input type="text" class="header-search__inp w-100 h-100" placeholder="Имя пользователя или ссылка на профиль">
+                    <button class="header-search__btn">
+                        <span class="d-none d-md-block">Найти</span>
+                        <svg class="search__icon d-md-none" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 487.95 487.95" style="enable-background:new 0 0 487.95 487.95;" xml:space="preserve">
+                                <path d="M481.8,453l-140-140.1c27.6-33.1,44.2-75.4,44.2-121.6C386,85.9,299.5,0.2,193.1,0.2S0,86,0,191.4s86.5,191.1,192.9,191.1
+                                    c45.2,0,86.8-15.5,119.8-41.4l140.5,140.5c8.2,8.2,20.4,8.2,28.6,0C490,473.4,490,461.2,481.8,453z M41,191.4
+                                    c0-82.8,68.2-150.1,151.9-150.1s151.9,67.3,151.9,150.1s-68.2,150.1-151.9,150.1S41,274.1,41,191.4z"/>
+                        </svg>
+                    </button>
+                </div>
+                <p class="header-search__text">Введите имя пользователя в строку поиска, используя форматы <br>
+                    @username или instagram.com/username</p>
+            </div>
+        </div>
+    </header>
+    <div class="mobile-menu">
+        <ul class="d-flex justify-content-center flex-column">
+            <li class="mobile-menu-list"><a href="#" class="mobile-menu-list__link">Посмотреть истории</a></li>
+            <li class="mobile-menu-list"><a href="#" class="mobile-menu-list__link">Популярные пользователи</a></li>
+            <li class="mobile-menu-list"><a href="#" class="mobile-menu-list__link">Блог</a></li>
+        </ul>
+        <div class="mobile-menu-lang mt-5 fs-5">
+            <span class="text-white">Язык:</span>
+            <a href="#" class="ru activeLang mx-3">Ru</a>
+            <a href="#" class="en">En</a>
+        </div>
+    </div>
+    <!-- End header -->
+
+    <div class="advantages">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="advantages__title">Ваши преимущества</p>
+                </div>
+                <div class="col-lg-9 m-auto text-center px-lg-4 position-relative advantages-title">
+                    <p class="advantages__sub-title fw-semibold">Анонимный просмотр сторис в Инстаграм</p>
+                    <p class="advantages__text">Быть в курсе всех событий интересующего человека просто - достаточно использовать наш бесплатный сервис Insta Navigation. Особенность нашего ресурса заключается в полной анонимности пользователя, что позволяет следить за историями, прямыми эфирами, фотографиями, лайками, читать комменты, мониторить фолловеров и т.д.</p>
+                    <img src="assets/img/png/cube.png" alt="cube.png" class="cube1 position-absolute">
+                </div>
+            </div>
+            <div class="row advantages-item text-center text-lg-start">
+                <div class="col-lg-5 col-12">
+                    <p class="advantages__sub-title fw-semibold">Не нужен аккаунт</p>
+                    <p class="advantages__text">Вам не требуется собственный профиль в Инстаграм. <br>
+                        Вы имеете возможность всегда просматривать ленту пользователей без надобности входа в систему и установки мобильного приложения.</p>
+                </div>
+                <div class="col-lg-7 ps-5 col-12 justify-content-center justify-content-lg-center mt-5 mt-lg-0">
+                    <div class="ellipse">
+                        <img src="assets/img/png/e1.png" alt="" class="e1">
+                        <img src="assets/img/png/e2.png" alt="" class="e2">
+                        <div class="ellipse-item">
+                            <img src="assets/img/png/c1.png" alt="" class="c1">
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="row advantages-item d-flex flex-row-reverse justify-content-between text-center text-lg-start">
+                <div class="col-lg-6 col-12">
+                    <p class="advantages__sub-title fw-semibold">Гарантия анонимности</p>
+                    <p class="advantages__text">Можно не беспокоиться о том, что Вашу деятельность заметят, т.к. используя наш сервис, Вы являетесь полностью невидимым для владельца аккаунта, который просматривается.</p>
+                </div>
+                <div class="col-lg-6 ps-lg-5 col-12 d-flex justify-content-center justify-content-lg-center mt-5 mt-lg-0">
+                    <div class="ellipse ellipse2">
+                        <img src="assets/img/png/e3.png" alt="" class="e3">
+                        <img src="assets/img/png/e4.png" alt="" class="e4">
+                        <div class="ellipse-item">
+                            <img src="assets/img/png/c2.png" alt="" class="c1">
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="row advantages-item text-center text-lg-start">
+                <div class="col-lg-5 col-12">
+                    <p class="advantages__sub-title fw-semibold">Сохранение контента</p>
+                    <p class="advantages__text">Каждый пользователь нашего ресурса может загружать публикации на персональный компьютер, смартфон, планшет или ноутбук. Не упускайте возможность сохранить важную для Вас информацию.</p>
+                </div>
+                <div class="col-lg-7 ps-lg-5 col-12 mt-5 mt-lg-0">
+                    <div class="ellipse ellipse3">
+                        <img src="assets/img/png/e5.png" alt="" class="e5">
+                        <img src="assets/img/png/e6.png" alt="" class="e6">
+                        <img src="assets/img/png/e7.png" alt="" class="e7">
+                        <div class="ellipse-item camera">
+                            <img src="assets/img/png/c4.png" alt="" class="c4">
+                        </div>
+                        <div class="ellipse-item media">
+                            <img src="assets/img/png/c3.png" alt="" class="c3">
+                        </div>
+                        <div class="ellipse-item save">
+                            <img src="assets/img/png/c5.png" alt="" class="c3">
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End advantages -->
+
+    <div class="faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="faq__title">Часто задаваемые <br> вопросы</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <ul class="faq-item">
+                        <li class="faq-list">
+                            <p class="faq-list__title">Что можно просмотреть или скачать при помощи вашего интернет-ресурса?</p>
+                            <div class="faq-list-info">Для просмотра других аккаунтов не нужно иметь профиль или создавать его специально. Достаточно указать правильный ник интересующего пользователя (вводить никнейм нужно правильно, т.к. даже ошибка в одной букве может привести Вас на страницу совсем другого пользователя). </div>
+                        </li>
+                        <li class="faq-list">
+                            <p class="faq-list__title">Требуется ли создавать собственный аккаунт в инстаграме для просмотра других профилей?</p>
+                            <div class="faq-list-info">Для просмотра других аккаунтов не нужно иметь профиль или создавать его специально. Достаточно указать правильный ник интересующего пользователя (вводить никнейм нужно правильно, т.к. даже ошибка в одной букве может привести Вас на страницу совсем другого пользователя). </div>
+                        </li>
+                        <li class="faq-list">
+                            <p class="faq-list__title">На каком устройстве я могу воспользоваться услугами вашего сервиса?</p>
+                            <div class="faq-list-info">Для просмотра других аккаунтов не нужно иметь профиль или создавать его специально. Достаточно указать правильный ник интересующего пользователя (вводить никнейм нужно правильно, т.к. даже ошибка в одной букве может привести Вас на страницу совсем другого пользователя). </div>
+                        </li>
+                        <li class="faq-list">
+                            <p class="faq-list__title">Имеется ли возможность скачать желаемый материал анонимно, не оставляя за собой следов?</p>
+                            <div class="faq-list-info">Для просмотра других аккаунтов не нужно иметь профиль или создавать его специально. Достаточно указать правильный ник интересующего пользователя (вводить никнейм нужно правильно, т.к. даже ошибка в одной букве может привести Вас на страницу совсем другого пользователя). </div>
+                        </li>
+                        <li class="faq-list">
+                            <p class="faq-list__title">Сколько нужно платить за использование вашего сервиса?</p>
+                            <div class="faq-list-info">Для просмотра других аккаунтов не нужно иметь профиль или создавать его специально. Достаточно указать правильный ник интересующего пользователя (вводить никнейм нужно правильно, т.к. даже ошибка в одной букве может привести Вас на страницу совсем другого пользователя). </div>
+                        </li>
+                        <li class="faq-list">
+                            <p class="faq-list__title">Можно ли использовать ранее скачанные материалы из Инстаграма?</p>
+                            <div class="faq-list-info">Для просмотра других аккаунтов не нужно иметь профиль или создавать его специально. Достаточно указать правильный ник интересующего пользователя (вводить никнейм нужно правильно, т.к. даже ошибка в одной букве может привести Вас на страницу совсем другого пользователя). </div>
+                        </li>
+                        <li class="faq-list">
+                            <p class="faq-list__title">Какие форматы загрузки предлагает Insta Navigation?</p>
+                            <div class="faq-list-info">Для просмотра других аккаунтов не нужно иметь профиль или создавать его специально. Достаточно указать правильный ник интересующего пользователя (вводить никнейм нужно правильно, т.к. даже ошибка в одной букве может привести Вас на страницу совсем другого пользователя). </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End FAQ -->
+
+    <div class="popular">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="popular__title">Популярные статьи</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="popular-card">
+                        <div class="popular-card-img">
+                            <a href="#" class="popular-card-img-head">Советы</a>
+                            <img src="assets/img/png/p1.png" alt="">
+                        </div>
+                        <a href="#" class="popular-card__title">Как красиво оформить свою страницу</a>
+                        <p class="popular-card__text">Если страница блогера оформлена не красиво, не привлекательно и не интересно, то успеха ждать...</p>
+                        <p class="popular-card__time">16 января 2022 16:54</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="popular-card">
+                        <div class="popular-card-img">
+                            <a href="#" class="popular-card-img-head head2">Интересное</a>
+                            <img src="assets/img/png/p2.png" alt="">
+                        </div>
+                        <a href="#" class="popular-card__title">За что Инстаграм может удалить аккаунт?</a>
+                        <p class="popular-card__text">За что Инстаграм может удалить аккаунт?</p>
+                        <p class="popular-card__time">16 января 2022 12:08</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="popular-card">
+                        <div class="popular-card-img">
+                            <a href="#" class="popular-card-img-head head3">Инструкции</a>
+                            <img src="assets/img/png/p3.png" alt="">
+                        </div>
+                        <a href="#" class="popular-card__title">Где брать идеи для контента в Инстаграм?</a>
+                        <p class="popular-card__text">Все пользователи Инстаграма заходят в социальную сеть, чтобы смотреть на красивые картинки...</p>
+                        <p class="popular-card__time">17 января 2022 10:11</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End popular -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row"></div>
+        </div>
+    </footer>
+    
+
+    <script src="assets/js/plugin/jquery.js"></script>
+    <script src="assets/js/plugin/popper.js"></script>
+    <script src="assets/js/plugin/bootstrap.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
