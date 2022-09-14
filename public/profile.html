@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль</title>
+    <link rel="shortcut icon" href="../assets/img/png/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/style/plugin/bootstrap.css">
+    <link rel="stylesheet" href="../assets/style/css/main.css">
+</head>
+<body>
+    <header class="header header-peofile">
+        <div class="container">
+                <div class="row">
+                   <nav class="nav w-100 d-flex justify-content-between align-items-center">
+                    <div class="col-lg-3 col-sm-4 col-7 position-relative">
+                        <a href="../index.html" class="d-flex align-items-center">
+                            <img loading="lazy" src="../assets/img/png/logo.png" alt="logo.png" class="logo__img me-2">
+                            <div class="text-white">
+                                <p class="logo__title">Insta Navigation</p>
+                                <p class="logo__sub-title">анонимный просмотр</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-7 col-md-6">
+                        <ul class="justify-content-between align-items-center d-none d-lg-flex">
+                            <li class="nav-list"><a href="#" class="nav-list__link">Посмотреть истории</a></li>
+                            <li class="nav-list"><a href="#" class="nav-list__link">Популярные пользователи</a></li>
+                            <li class="nav-list"><a href="#" class="nav-list__link">Блог</a></li>
+                            <li class="lang">
+                                <span class="lang-active"> Ru</span>
+                                  <ul class="lang-menu">
+                                    <li><a class="lang-item" href="#">Ru</a></li>
+                                    <li><a class="lang-item" href="#">En</a></li>
+                                  </ul>
+                            </li>
+                        </ul>
+                        <div class="menu-burger justify-content-end d-flex d-lg-none me-2">
+                            <div class="menu-burger-item flex justify-between flex-col">
+                                <div class="menu-burger-list" id="burger_list1"></div>
+                                <div class="menu-burger-list" id="burger_list2"></div>
+                                <div class="menu-burger-list" id="burger_list3"></div>
+                            </div>
+                        </div>
+                    </div>
+                   </nav>
+                </div>
+        </div>
+    </header>
+    <div class="mobile-menu">
+        <ul class="d-flex justify-content-center flex-column">
+            <li class="mobile-menu-list"><a href="#" class="mobile-menu-list__link">Посмотреть истории</a></li>
+            <li class="mobile-menu-list"><a href="#" class="mobile-menu-list__link">Популярные пользователи</a></li>
+            <li class="mobile-menu-list"><a href="#" class="mobile-menu-list__link">Блог</a></li>
+        </ul>
+        <div class="mobile-menu-lang mt-5 fs-5">
+            <span class="text-white">Язык:</span>
+            <a href="#" class="ru activeLang mx-3">Ru</a>
+            <a href="#" class="en">En</a>
+        </div>
+    </div>
+    <!-- End header -->
+
+    <div class="profile">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex align-items-start">
+                    <div class="profile-photo">
+                        <div class="profile-photo-border">
+                            <img src="../assets/img/png/profile.png" alt="" class="profile-photo__png">
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="d-flex align-items-start flex-column flex-md-row align-items-md-center">
+                            <p class="profile-login">cristiano</p>
+                            <div class="anonymous-browsing mt-3 mt-md-0">
+                                анонимный просмотр
+                                <svg class="ms-1 ms-md-3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="20" viewBox="0 0 17 20">
+                                    <image id="Эффект" width="17" height="20" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAUCAYAAABroNZJAAABrUlEQVQ4jZ3US6hPURTH8Y93mKG4iCQjrzLwyMBfShhJopSByf8qDJRiYKYUYsBAUQZSRLqjWxSJCEkRJgYmXgNlIM/E1dLat31P/+txf3Xa56y913ft1lpnDeua2lJpDOZhEZYhNmfhI67jNh7iMd6HW3e7JSCbsQKrMdtAfU6nGZjZ2AvINdwISF8aP2WkO7ib0d5VTuPylkuwPJ/psVEgV7DW/2sPjgzPjy9DAMhcKZDRQ4SMrSF9fz7brwM4jRG1cWSuPytb3GoS3jQAO7EfLzP4j+JXbjK+OnwKr7Gwsu3CCdzLcn9P+6gC+ZalK7qQ66NstPU4jgfZgLWmFMhNTK42otzz8/0FenAfizvkaE2BlMgrq82n1e0iN0s7AMJ3bnRsvFxM48HGoWdYkE8n7Sh+5Qc8i63p8GQQp6YiuR+6262JpTrtXK/+I+BMtscmVYm/Ygu6cOkvgO3YhvM5Hvoh0ngYG3F5EMBunMxyR9DfqiGhvTiEDXiLVWmfhl4cw61mtZqQ0L5McjRSDJ3neIV1OJoDrP5NOkJC5zAhW31ODqsYmTE/Bgq/ALJ/VNbSG7uPAAAAAElFTkSuQmCC"/>
+                                  </svg>
+                            </div>
+                        </div>
+                        <p class="profile__name d-none d-md-block">Cristiano Ronaldo</p>
+                        <div class="d-md-flex d-none">
+                            <a href="#" class="profile__info">
+                                <p class="profile__info-title">388</p>
+                                <p class="">публикаций</p>
+                            </a>
+                            <a href="#" class="profile__info">
+                                <p class="profile__info-title">474,625,993</p>
+                                <p class="">подписчиков</p>
+                            </a>
+                            <a href="#" class="profile__info">
+                                <p class="profile__info-title">519</p>
+                                <p class="">подписок</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 d-md-none mt-4">
+                    <p class="profile__name">Cristiano Ronaldo</p>
+                    <div class="d-flex justify-content-between">
+                        <a href="#" class="profile__info">
+                            <p class="profile__info-title">388</p>
+                            <p class="">публикаций</p>
+                        </a>
+                        <a href="#" class="profile__info">
+                            <p class="profile__info-title">474,625,993</p>
+                            <p class="">подписчиков</p>
+                        </a>
+                        <a href="#" class="profile__info">
+                            <p class="profile__info-title">519</p>
+                            <p class="">подписок</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5 mb-3">
+                <div class="col-12 d-flex">
+                    <div class="profile-stories__btn active_btn me-5">Истории</div>
+                    <div class="profile-publications__btn">Публикации</div>
+                </div>
+            </div>
+            <div class="row profile-stories">
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="profile-stories-item">
+                        <img src="../assets/img/png/photo1.png" alt="stories.png" class="stories__img">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="profile-stories-item">
+                        <img src="../assets/img/png/photo2.png" alt="stories.png" class="stories__img">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="profile-stories-item">
+                        <img src="../assets/img/png/photo3.png" alt="stories.png" class="stories__img">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="profile-stories-item">
+                        <img src="../assets/img/png/photo4.png" alt="stories.png" class="stories__img">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="profile-stories-item">
+                        <img src="../assets/img/png/photo5.png" alt="stories.png" class="stories__img">
+                    </div>
+                </div>
+            </div>
+            <div class="row profile-publications d-none">
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="profile-publications-item">
+                        <img src="../assets/img/png/photo1.png" alt="publications.png" class="publications__img">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="profile-publications-item">
+                        <img src="../assets/img/png/photo5.png" alt="publications.png" class="publications__img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End profile -->
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="row my-5 d-lg-none">
+                <div class="col-sm-8">
+                    <div class="d-flex align-items-center">
+                        <img loading="lazy" src="../assets/img/png/logo.png" alt="logo.png" class="me-2 footer__logo">
+                            <div class="text-white">
+                            <p class="footer__logo-text">instanavigation.com не связан с Instagram. Все права на контент принадлежат авторам контента. Скачивание доступно только в ознакомительных целях.</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-between align-items-center flex-wrap-reverse">
+                <div class="col-md-9 col-7">
+                    <ul class="justify-content-between align-items-start align-items-lg-center d-flex flex-column flex-lg-row">
+                        <li class="nav-list"><a href="#" class="nav-list__link">Посмотреть истории</a></li>
+                        <li class="nav-list"><a href="#" class="nav-list__link">Популярные пользователи</a></li>
+                        <li class="nav-list"><a href="#" class="nav-list__link">Блог</a></li>
+                        <li class="nav-list"><a href="#" class="nav-list__link">Возможности</a></li>
+                        <li class="nav-list"><a href="#" class="nav-list__link">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-5 d-flex align-items-center justify-content-end ">
+                    <a href="../index.html" class="footer-search">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 487.95 487.95" style="enable-background:new 0 0 487.95 487.95;" xml:space="preserve">
+                            <path d="M481.8,453l-140-140.1c27.6-33.1,44.2-75.4,44.2-121.6C386,85.9,299.5,0.2,193.1,0.2S0,86,0,191.4s86.5,191.1,192.9,191.1
+                                c45.2,0,86.8-15.5,119.8-41.4l140.5,140.5c8.2,8.2,20.4,8.2,28.6,0C490,473.4,490,461.2,481.8,453z M41,191.4
+                                c0-82.8,68.2-150.1,151.9-150.1s151.9,67.3,151.9,150.1s-68.2,150.1-151.9,150.1S41,274.1,41,191.4z"/>
+                        </svg>
+                    </a>
+                    <div class="lang">
+                        <span class="lang-active"> Ru</span>
+                          <ul class="lang-menu">
+                            <li><a class="lang-item" href="#">Ru</a></li>
+                            <li><a class="lang-item" href="#">En</a></li>
+                          </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-5 d-none d-lg-flex">
+                <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                        <img loading="lazy" src="../assets/img/png/logo.png" alt="logo.png" class="me-2 footer__logo">
+                            <div class="text-white">
+                            <p class="footer__logo-text">instanavigation.com не связан с Instagram. Все права на контент принадлежат авторам контента. Скачивание доступно только в ознакомительных целях.</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex flex-wrap-reverse flex-md-nowrap mt-2 mt-md-0">
+                <div class="col-md-4">
+                    <p class="footer-sub text-white fw-normal">© 2022 Insta Navigation. All rights reserved.</p>
+                </div>
+                <div class="col-md-8 d-flex justify-content-md-end justify-content-center align-items-center flex-wrap mb-4 mb-md-0">
+                    <a href="#" class="footer__link text-white fw-normal me-0 me-sm-5">Пользовательское соглашение</a>
+                    <a href="#" class="footer__link text-white fw-normal">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/plugin/jquery.js"></script>
+    <script src="../assets/js/profile.js"></script>
+    <script src="../assets/js/index.js"></script>
+</body>
+</html>

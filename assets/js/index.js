@@ -1,5 +1,6 @@
-const lang = document.querySelector('.header .lang'),
-      langItem = document.querySelectorAll('.header .lang-item'),menuBurger = document.querySelector('.menu-burger'),
+const lang = document.querySelectorAll('.lang'),
+      langItem = document.querySelectorAll('.lang-item'),
+      menuBurger = document.querySelector('.menu-burger'),
       mobileMenu = document.querySelector('.mobile-menu'),
       mobileMenuLists = document.querySelectorAll('.mobile-menu ul li'),
       header = document.querySelector('.header'),
@@ -19,31 +20,18 @@ mobileMenuLists.forEach(btn => {
         body.classList.toggle('showScroll')
     })
 });
+lang.forEach(lang => {
+    lang.addEventListener('click', () => {
+        lang.classList.toggle('borderBottom');
+        lang.children[1].classList.toggle('showLangMenu');
+    });
+})
 
-lang.addEventListener('click', () => {
-    lang.classList.toggle('borderBottom');
-    lang.children[1].classList.toggle('showLangMenu');
-});
 
 langItem.forEach(item => {
     item.addEventListener('click', () => {
-        lang.children[0].innerText = item.innerText
-    })
+        item.parentElement.parentElement.parentElement.children[0].innerText = item.innerText
+    });
 });
 
-
-
-// faqList.forEach(list => {
-//     list.addEventListener('click', () => {
-//         list.lastElementChild.classList.toggle('showInfo');
-//         list.classList.toggle('activeFaq');
-//     })
-// });
-
-
-
-$('.faq-list').click(function() {
-    $(this).siblings().removeClass('activeFaq');
-    $(this).toggleClass('activeFaq');
-  });
 

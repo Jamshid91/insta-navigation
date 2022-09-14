@@ -32,6 +32,14 @@
         }
     }
     // End faq
+    .advantages {
+        .cube1 {
+            top: 85%;
+            right: 80%;
+            transition: .3s all;
+            z-index: -1;
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -71,6 +79,64 @@
             font-size: 40px;
         }
     }
+    .footer {
+        padding: 10px 0 40px 0;
+    } 
+
+
+    .header-peofile {
+        padding: 0;
+    }
+    .profile {
+        padding: 100px 0 60px;
+        color: #191a40;
+        &-photo {
+            width: 135px;
+            height: 135px;
+            border-radius: 40px;
+            box-shadow: 2px 4px 10px 0px rgba(255, 121, 121, 0.2);
+            margin-right: 15px;
+            &-border {
+                width: 112px;
+                height: 112px;
+            }
+            &__png {
+                width: 110px;
+                height: 110px;
+                border-radius: 50%;
+                object-fit: cover;
+                object-position: center;
+                border: 5px solid #fff;
+                background: #fff;
+            }
+        }
+        &-login {
+            margin-right: 0;
+        }
+        .anonymous-browsing {
+            padding: 3px 10px;
+            font-size: 12px;
+        }
+        &__name {
+            font-size: 20px;
+            font-weight: 700;
+            color: #848591;
+            margin: 15px 0 35px;
+        }
+        &__info {
+            margin-right: 0;
+            &:last-child {
+                margin-right: 0;
+            }
+            &:hover {
+                color: #191a40;
+            }
+            &-title {
+                font-size: 20px;
+                font-weight: 700;
+            }
+        }
+    }
 }
 
 @media (max-width: 576px) {
@@ -80,6 +146,7 @@
           }
     }
     .advantages {
+
         padding: 80px 0;
         &__title {
             font-size: 36px;
@@ -107,9 +174,39 @@
                 left: 50%;
             }
         } 
+        .cube1 {
+            top: 90%;
+            right: 80%;
+            transition: .3s all;
+        }
+    }
+    .profile {
+        
+    &-stories,
+    &-publications {
+        &-item {
+            margin-top: 30px;
+            transition: .3s all;
+            border-radius: 20px;
+            .stories__img,
+            .publications__img {
+                width: 100%;
+                height: 320px;
+                object-fit: cover;
+                object-position: center;
+                border-radius: 20px;
+            }
+            &:hover {
+                transform: translateY(-10px);
+                box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+            }
+        }
+    }
     }
 }
 
 .showScroll {
     overflow: hidden;
 }
+
+
